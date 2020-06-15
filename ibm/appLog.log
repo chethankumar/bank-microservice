@@ -1,0 +1,182 @@
+Project created on Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time)
+
+ Info | appDB | init | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | App DB initialized
+ Info | datasourceDB | init | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | settingsDB | init | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | Initialized all the DBs
+Success | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:18 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:19 GMT+0530 (India Standard Time) | Installing packages. This might take a couple of minutes.
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:20 GMT+0530 (India Standard Time) | Installing react, react-dom, and react-scripts with cra-template-node-express...
+
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:20 GMT+0530 (India Standard Time) | yarn add v1.22.4
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:20 GMT+0530 (India Standard Time) | [1/4] Resolving packages...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:27 GMT+0530 (India Standard Time) | [2/4] Fetching packages...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:29 GMT+0530 (India Standard Time) | [3/4] Linking dependencies...
+
+ Error | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:29 GMT+0530 (India Standard Time) | warning "react-scripts > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161987:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161944:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161984:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33112:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:29 GMT+0530 (India Standard Time) | warning "cra-template-node-express > @testing-library/user-event@7.2.1" has unmet peer dependency "@testing-library/dom@>=5".
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161987:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161944:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161984:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33112:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:41:48 GMT+0530 (India Standard Time) | [4/4] Building fresh packages...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:02 GMT+0530 (India Standard Time) | success Saved lockfile.
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:03 GMT+0530 (India Standard Time) | success Saved 53 new dependencies.
+info Direct dependencies
+├─ cra-template-node-express@0.6.8
+├─ react-dom@16.13.1
+├─ react-scripts@3.4.1
+└─ react@16.13.1
+info All dependencies
+├─ @babel/helper-wrap-function@7.10.1
+├─ @babel/plugin-proposal-private-methods@7.10.1
+├─ @babel/plugin-syntax-class-properties@7.10.1
+├─ @babel/plugin-syntax-typescript@7.10.1
+├─ @babel/plugin-transform-flow-strip-types@7.9.0
+├─ @babel/plugin-transform-react-pure-annotations@7.10.1
+├─ @babel/plugin-transform-runtime@7.10.1
+├─ @babel/plugin-transform-typescript@7.10.1
+├─ @babel/plugin-transform-unicode-escapes@7.10.1
+├─ @babel/preset-typescript@7.9.0
+├─ @sheerun/mutationobserver-shim@0.3.3
+├─ @testing-library/dom@6.16.0
+├─ @testing-library/jest-dom@4.2.4
+├─ @testing-library/react@9.5.0
+├─ @testing-library/user-event@7.2.1
+├─ @types/prop-types@15.7.3
+├─ @types/react-dom@16.9.8
+├─ @types/react@16.9.36
+├─ @types/testing-library__dom@7.0.2
+├─ @types/testing-library__react@9.1.3
+├─ cra-template-node-express@0.6.8
+├─ css.escape@1.5.1
+├─ csstype@2.6.10
+├─ detect-file@1.0.0
+├─ dom-accessibility-api@0.3.0
+├─ dom-walk@0.1.2
+├─ enhanced-resolve@4.1.0
+├─ expand-tilde@2.0.2
+├─ findup-sync@3.0.0
+├─ global@4.4.0
+├─ hoist-non-react-statics@3.3.2
+├─ html-entities@1.3.1
+├─ interpret@1.2.0
+├─ min-document@2.19.0
+├─ min-indent@1.0.1
+├─ node-hot@4.0.3
+├─ parse-passwd@1.0.0
+├─ prop-types@15.7.2
+├─ react-dom@16.13.1
+├─ react-error-overlay@6.0.7
+├─ react-hot-loader@4.12.21
+├─ react-lifecycles-compat@3.0.4
+├─ react-scripts@3.4.1
+├─ react@16.13.1
+├─ redent@3.0.0
+├─ resolve-dir@1.0.1
+├─ scheduler@0.19.1
+├─ shallowequal@1.1.0
+├─ strip-indent@3.0.0
+├─ v8-compile-cache@2.0.3
+├─ wait-for-expect@3.0.2
+├─ webpack-cli@3.3.11
+└─ webpack-hot-middleware@2.25.0
+Done in 42.78s.
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:04 GMT+0530 (India Standard Time) | 
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:04 GMT+0530 (India Standard Time) | Initialized a git repository.
+
+Installing template dependencies using yarnpkg...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:04 GMT+0530 (India Standard Time) | yarn add v1.22.4
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:04 GMT+0530 (India Standard Time) | [1/4] Resolving packages...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:05 GMT+0530 (India Standard Time) | [2/4] Fetching packages...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:06 GMT+0530 (India Standard Time) | [3/4] Linking dependencies...
+
+ Error | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:06 GMT+0530 (India Standard Time) | warning " > @testing-library/user-event@7.2.1" has unmet peer dependency "@testing-library/dom@>=5".
+warning "cra-template-node-express > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161987:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161944:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161984:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33112:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:13 GMT+0530 (India Standard Time) | [4/4] Building fresh packages...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:13 GMT+0530 (India Standard Time) | success Saved lockfile.
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:14 GMT+0530 (India Standard Time) | success Saved 0 new dependencies.
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:14 GMT+0530 (India Standard Time) | Done in 9.41s.
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:14 GMT+0530 (India Standard Time) | 
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:14 GMT+0530 (India Standard Time) | Removing template package using yarnpkg...
+
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:14 GMT+0530 (India Standard Time) | yarn remove v1.22.4
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:14 GMT+0530 (India Standard Time) | [1/2] Removing module cra-template-node-express...
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:14 GMT+0530 (India Standard Time) | [2/2] Regenerating lockfile and installing missing dependencies...
+
+ Error | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:16 GMT+0530 (India Standard Time) | warning " > @testing-library/user-event@7.2.1" has unmet peer dependency "@testing-library/dom@>=5".
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161987:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161944:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161984:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33112:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:16 GMT+0530 (India Standard Time) | warning "@typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161987:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161944:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161984:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33112:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:29 GMT+0530 (India Standard Time) | success Uninstalled packages.
+
+ Info | CreateWebProject | createReactJSProject | Mon Jun 15 2020, 23:42:29 GMT+0530 (India Standard Time) | Done in 14.53s.
+
