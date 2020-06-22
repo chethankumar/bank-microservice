@@ -1,0 +1,11 @@
+kind: LocalConfig
+apiversion: odo.dev/v1alpha1
+ComponentSettings:
+  Type: nodejs
+  SourceLocation: ./
+  SourceType: local
+  Ports:
+  - 8080/TCP
+  Application: app
+  Project: purple-bank
+  Name: nodejs-bank-microse-hgdj

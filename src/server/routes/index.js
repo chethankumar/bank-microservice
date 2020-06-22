@@ -6,5 +6,7 @@ router.get('/foo', (req, res) => res.send('Hello world!'));
 module.exports = router;
 
 if (module.hot) {
-    module.hot.accept();
+  module.hot.accept();
 }
+
+require('./bank');
